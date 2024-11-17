@@ -1,0 +1,13 @@
+{
+    "index": {
+        "type": "page",
+        "title": "vuvu.js",
+        "display": "hidden",
+        "theme": {
+        }
+    },
+    "docs": {
+        "title": "doc",
+        "type": "page"
+    }
+  }

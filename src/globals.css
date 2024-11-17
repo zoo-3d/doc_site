@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nx-border {
+    /* border-width: 0px; */
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.even\:nx-bg-gray-100:nth-child(2n) {
+    --tw-bg-opacity: 0;
+}
+
+th:not(:has(*)) {
+    display: none;
+}
+
+table {
+    display: table !important;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* 计算器按键的样式 */
+key {
+    border-width: 1px;
+    border-color: #666;
+    font-weight: bold;
+}
